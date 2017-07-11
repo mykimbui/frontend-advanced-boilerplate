@@ -1,0 +1,26 @@
+{
+  "name": "joyo-rotate",
+  "version": "1.0.0",
+  "description": "1. Fork this repo 1. Rename-it then clone it on your computer",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "ngrok": "^2.2.13"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lewagon/frontend-advanced-boilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lewagon/frontend-advanced-boilerplate/issues"
+  },
+  "homepage": "https://github.com/lewagon/frontend-advanced-boilerplate#readme"
+}

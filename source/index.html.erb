@@ -1,15 +1,17 @@
-  <div class="container">
-    <% 10.times do %>
-    <% 15.times do %>
-    <div class="drifter">
-      <div class="tops"></div>
-    </div>
-    <% end %>
-    <% 15.times do %>
-    <div class="drifter">
-      <div class="sides"></div>
-    </div>
-    <% end %>
-    <% end %>
+<div class="contain">
+  <% 10.times do %>
+  <% (1...15).each do |i| %>
+  <div class="drifter">
+    <div class="tops"></div>
   </div>
+  <% end %>
+  <% (1...15).each do |i|  %>
+  <div class="drifter">
+    <div class="sides"></div>
+  </div>
+  <% end %>
+  <% end %>
+</div>
+
+
 
